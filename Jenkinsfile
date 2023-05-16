@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('tool info') {
             steps {
-                sh 'sudo apt-get install pack-cli'
+                // sh 'sudo apt-get install pack-cli'
                 sh 'pack version'
                 sh 'pack report'
             }
